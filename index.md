@@ -26,3 +26,8 @@ I run the following command to quickly log in:`<^R>ssh <enter>`
 ![step4.2](./images/step4.2.png)
 
 ## Step 5
+I typed `gc` to clone the repo. I defined `gc` in my .bash_profile as: `alias gc='git clone git@github.com:GiantDwarfRen/lab7.git'`. Running `gc` in my ieng6 is equal to running `git clone git@github.com:GiantDwarfRen/lab7.git`. This saves me lot of time. 
+
+![step5](./images/step5.png)
+
+## Step 6
