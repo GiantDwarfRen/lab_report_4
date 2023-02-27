@@ -14,6 +14,22 @@ Type in `alias` can show all added `alias`. But here I used `nano .bash_profile`
 
 I'll explain each `alias` in each step. 
 
+## Overview
+Here is the overview of commands that I typed to complete tasks.
+```
+<^R>ssh <enter>
+gc
+c
+j1
+j2
+f
+j1
+j2
+g1
+g2
+g3
+```
+
 ## Step 4
 Thanks to adding public key to ieng6, I can directly log in from my terminal without password. 
 
@@ -31,3 +47,17 @@ I typed `gc` to clone the repo. I defined `gc` in my .bash_profile as: `alias gc
 ![step5](./images/step5.png)
 
 ## Step 6
+First, `cd` to `lab7/`. I also define a quick command `c` for that. `alias c='cd lab7'` 
+
+![step6.1](./images/step6.1.png)
+
+To quickly run the test, I also define two command `j1` and `j2`. 
+```
+alias j1='javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java'
+alias j2='java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests'
+```
+`j1` will compile all java files. `j2` will execute `ListExamplesTests` test class.
+
+![step6.2](./images/step6.2.png)
+
+## Step 7
