@@ -68,3 +68,8 @@ To fix bug, I define `f` to replace all code in original .java file with correct
 ![step7](./images/step7.png)
 
 ## Step 8
+Recompile and rerun the test, using `j1` and `j2`. Similar to *step 6*.
+
+![step8](./images/step%208.png)
+
+## Step 9
