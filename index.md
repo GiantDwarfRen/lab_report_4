@@ -73,3 +73,14 @@ Recompile and rerun the test, using `j1` and `j2`. Similar to *step 6*.
 ![step8](./images/step%208.png)
 
 ## Step 9
+I defined `g1`, `g2`, and `g3` to add, commit, and push changes to GitHub.
+
+These shortcuts are defined as:
+```
+alias g1='git add *.java'
+alias g2='git commit -m "fix bug"'
+alias g3='git push'
+```
+`g1` will add all changed .java files. `g2` will commit with message "fix bug". And `g3` will push to *main*.
+
+![step9](./images/step9.png)
