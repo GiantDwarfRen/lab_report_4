@@ -61,3 +61,10 @@ alias j2='java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.ru
 ![step6.2](./images/step6.2.png)
 
 ## Step 7
+To fix bug, I define `f` to replace all code in original .java file with corrected version. `f` is defined as 
+
+`alias f='echo "<corrected code>" > ListExamples.java`
+
+![step7](./images/step7.png)
+
+## Step 8
